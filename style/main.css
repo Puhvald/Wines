@@ -1,0 +1,518 @@
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url("/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url("/fonts/PlayfairDisplay.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    background-image: url("/img/bg_block1.png");
+    height: 900px;
+    background-size: 110% 100%;
+    background-repeat: no-repeat;
+    background-position-x: -110px;
+}
+
+#main #main-container {
+    width: 1200px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+#main #main-container #header {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+
+#main #main-container #header #header-contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+#main #main-container #header #header-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main #main-container #header #header-items a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    border: 1px solid #FFFFFF;
+    padding: 11px 107px;
+    border-right: none;
+}
+
+#main #main-container #header #header-items a:first-child {
+    border-left: none;
+}
+
+#main #main-container #main-buttons {
+    display: flex;
+    width: 415px;
+    margin: 583px auto 0 auto;
+    justify-content: space-between;
+}
+
+#main #main-container #main-buttons .main-btn {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: #99862A;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+#description {
+    background: #282828;
+    height: 856px;
+}
+
+#description #description-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#description #description-container #description-block {
+    width: 1110px;
+    margin: 0 auto;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+}
+
+#description #description-container #description-block h2 {
+    font-family: PlayfairDisplay-Regular, sans-serif;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 54px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+#description #description-container #description-block h2::after {
+    content: '';
+    width: 160px;
+    height: 1px;
+    background: #ffffff;
+    position: absolute;
+    top: 154px;
+    left: 475px;
+}
+
+#description #description-container #description-block #description-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular, sans-serif;
+    width: 732px;
+    margin: 0 auto;
+}
+
+#description #description-container #description-block #description-img {
+    margin: 50px auto 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#varieties {
+    background: #E6E3C4;
+    height: 1038px;
+}
+
+#varieties #varieties-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#varieties #varieties-container #varieties-content {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    padding-top: 60px;
+    padding-bottom: 58px;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info {
+    width: 445px;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-title {
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Montserrat-Regular, sans-serif;
+    margin-bottom: 30px;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info h2 {
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+    font-family: PlayfairDisplay-Regular, sans-serif;
+    width: 298px;
+    margin: 0 0 60px 0;
+    position: relative;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info h2::after {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 1px;
+    background: #282828;
+    top: 137px;
+    left: 0;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info .varieties-description {
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    font-family: Montserrat-Regular, sans-serif;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines {
+    display: flex;
+    margin: 30px 0 30px 0;
+    height: 226px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines::before {
+    content: '';
+    width: 445px;
+    height: 1px;
+    background: #282828;
+    position: absolute;
+    top: 73px;
+    left: 0;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines::after {
+    content: '';
+    width: 445px;
+    height: 1px;
+    background: #282828;
+    position: absolute;
+    bottom: 73px;
+    left: 0;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines #wines-years {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #282828;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines #wines-names {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines #wines-names .wine-properties {
+    padding: 14px 30px;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines #wines-years .wines-year {
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    font-family: Montserrat-Regular, sans-serif;
+    padding: 26px 24px;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines #wines-names .wine-properties .wine-name {
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+    font-family: PlayfairDisplay-Regular, sans-serif;
+    font-weight: bold;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-wines #wines-names .wine-properties .wine-description {
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    font-family: Montserrat-Regular, sans-serif;
+}
+
+#varieties #varieties-container #varieties-content #varieties-info #varieties-btn {
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 254px;
+    height: 50px;
+    background: #998431;
+    margin-top: 30px;
+    padding: 15px 29px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#varieties #varieties-container #varieties-content #varieties-images .varieties-img:first-child {
+    margin-bottom: 23px;
+}
+
+#varieties #varieties-container #varieties-content #varieties-images .varieties-img:nth-child(2) {
+    display: inline-block;
+    margin-right: 26px;
+}
+
+#varieties #varieties-container #varieties-content #varieties-images .varieties-img:last-child {
+    display: inline-block;
+}
+
+#tasting {
+    background: #282828;
+    height: 767px;
+}
+
+#tasting #tasting-container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    color: #ffffff;
+    padding-top: 129px;
+}
+
+#tasting #tasting-container h2 {
+    font-family: PlayfairDisplay-Regular, sans-serif;
+    font-size: 36px;
+    line-height: 72px;
+    margin: 0;
+    position: absolute;
+    top: 90px;
+    left: 355px;
+    width: 490px;
+    text-align: center;
+    background: #282828;
+}
+
+#tasting #tasting-container #tasting-img-left {
+    position: absolute;
+    top: 64px;
+    left: 0;
+}
+
+#tasting #tasting-container #tasting-img-right {
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+
+#tasting #tasting-container #tasting-block {
+    width: 1100px;
+    margin: 0 auto;
+    border: 3px solid #ffffff;
+    padding: 105px 0 80px 0;
+    box-sizing: border-box;
+}
+
+#tasting #tasting-container #tasting-block #tasting-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    font-family: Montserrat-Regular, sans-serif;
+    width: 539px;
+    margin: 0 auto 81px auto;
+    position: relative;
+}
+
+#tasting #tasting-container #tasting-block #tasting-info::before {
+    content: '';
+    width: 118px;
+    height: 1px;
+    background: #ffffff;
+    position: absolute;
+    left: 210.5px;
+    top: -40px;
+}
+
+#tasting #tasting-container #tasting-block #tasting-form {
+    width: 541px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#tasting #tasting-container #tasting-block #tasting-form input {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    font-size: 13px;
+    line-height: 150%;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+#tasting #tasting-container #tasting-block #tasting-form input::placeholder {
+    color: #ffffff;
+}
+
+#tasting #tasting-container #tasting-block #tasting-form input:first-child {
+    width: 253px;
+    margin-right: 31px;
+    margin-bottom: 40px;
+}
+
+#tasting #tasting-container #tasting-block #tasting-form input:nth-child(2) {
+    width: 253px;
+}
+
+#tasting #tasting-container #tasting-block #tasting-form input:nth-child(3) {
+    width: 541px;
+}
+
+#tasting #tasting-container #tasting-block #tasting-form #tasting-btn {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: Montserrat-Medium, sans-serif;
+    padding: 15px 209px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#footer {
+    background: #998431;
+    height: 220px;
+}
+
+#footer #footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#footer #footer-container #footer-block {
+    width: 1110px;
+    margin: 0 auto;
+    font-family: Montserrat-Regular, sans-serif;
+    color: #ffffff;
+}
+
+#footer #footer-container #footer-block #footer-nav {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #FFFFFF;
+}
+
+#footer #footer-container #footer-block #footer-nav a {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+#footer #footer-container #footer-block #footer-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+#footer #footer-container #footer-block #footer-contacts .footer-contacts-item {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat-Medium, sans-serif;
+    font-weight: 600;
+    padding: 20px 60px;
+    border-right: 1px solid #FFFFFF;
+}
+
+#footer #footer-container #footer-block #footer-contacts .footer-contacts-item:last-child {
+    border: none;
+}
+
+#footer #footer-container #footer-block #footer-contacts #footer-contacts-social-media {
+    padding: 20px 58px;
+    border-right: 1px solid #FFFFFF;
+}
+
+#footer #footer-container #footer-block #footer-contacts #footer-contacts-social-media svg {
+    margin-right: 35px;
+}
+
+#footer #footer-container #footer-block #footer-contacts #footer-contacts-social-media svg:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
