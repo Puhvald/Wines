@@ -1,16 +1,16 @@
 @font-face {
     font-family: Montserrat-Medium;
-    src: url("/fonts/Montserrat-Medium.ttf");
+    src: url("/style/fonts/Montserrat-Medium.ttf");
 }
 
 @font-face {
     font-family: Montserrat-Regular;
-    src: url("/fonts/Montserrat-Regular.ttf");
+    src: url("/style/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
     font-family: PlayfairDisplay-Regular;
-    src: url("/fonts/PlayfairDisplay.ttf");
+    src: url("/style/fonts/PlayfairDisplay.ttf");
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 #main {
-    background-image: url("/img/bg_block1.png");
+    background-image: url("/style/img/bg_block1.png");
     height: 900px;
     background-size: 110% 100%;
     background-repeat: no-repeat;
